@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<style>
+		td {border:solid;
+		}
+	</style>
+		<body>
+			<table>
+				<tbody>
+					<tr>
+						<th colspan "5">
+							<td rowspan"2">
+						<th>David's Schedule</th>
+					</tr>
+					<tr>
+						<td>Odd</td>
+						<td>Study Hall</td>
+						<td>AMDM</td>
+						<td>Reading the Media</td>
+						<td>Beginning Guitar</td>
+					</tr>
+				<tbody>
+			</table>
+		</body>
+</html>
