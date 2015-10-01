@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html>
+	<head>My dream vacation</head>
+		<img src="http://www.holidaysatmaldives.com/images/holidays-at-maldives.jpg">
+</html>
