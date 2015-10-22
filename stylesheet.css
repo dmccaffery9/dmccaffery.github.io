@@ -30,6 +30,7 @@ body{
 }
 .header ul{
 	display:inline
+	list-style:none;
 }
 .structure{
 	float: left
