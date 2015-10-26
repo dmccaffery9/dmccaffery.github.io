@@ -19,14 +19,12 @@ img {
 }
 
 #navbar {
-	position: absolute;
 	top:10px;
 	left:50%;
 	margin-left:-254px;
 }
 
 #header {
-	position: relative;
 	top: -10px;
 	background-color: #3c4543;
 	border-top-left-radius: 15px;
