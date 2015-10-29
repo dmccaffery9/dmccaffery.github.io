@@ -134,3 +134,7 @@ th {
 	font-variant: small-caps;
 	color: #ffffff;
 }
+
+h1 {
+	display:inline;
+}
