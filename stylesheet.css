@@ -150,3 +150,7 @@ span {
 .header {
 	display:center;
 }
+
+a {
+	text-decoration:none;
+}
