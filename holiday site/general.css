@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#stockings-picture {
+	margin-left:25%;
+	width:50%;	
+}
+
+html {
+	background-image:url(http://www.freechristmaswallpapers.net/images/wallpapers/Green-Christmas-Background-1920-1080-803397.jpeg)
+	}
+	
+*{
+color:red;
+}
+
+#header {
+	text-align:center;
+}
+
+h3 {
+	text-align:center;
+}
+
+#content {
+	text-align:center;
+}
+
+li {
+	text-align:left;
+}

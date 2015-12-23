@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fine China</title>
+<body>
+<div class="menu-wrap">
+<nav class="menu">
+	<ul class="clearfix">
+		<li><a href="#"> celeb</a>
+			<ul class="submenu">
+				<li>Kim Kardashian<a href="#"></a></li>
+				<li>Chloe Kardashian<a href="#"></a></li>
+				<li>Courtney Kardashian<a href="#"></a></li>
+			</ul>
+		</li>
+	
+		<li><a href="#">Favorite animal</a></li>
+			<ul class="submenu"> 
+				<li><a href="#">Sea Leopard</a>
+				<li><a href="#">Gorilla Squid</a>
+				<li><a href="#">Sea Rinosorous</a>
+			</ul>
+		</li>
+		
+		
+		<li>Favorite movie<a href="#"></li>
+		<li>Favorite food<a href="#"></li>
+	</ul>
+	</nav>
+	</div>
+	<style>
+		/*CSS language now*/
+		.menu-wrap {
+			width:100;
+		}
+		
+		.clearfix:after {
+			display:block;
+			clear:both;
+			width:100%;
+		}
+		
+		.menu {
+			text-align:center;
+		}
+		
+		.menu li {
+			list-style:none;
+			transition:all linear 0.15s;
+		}
+		
+		.menu a{
+			transition:all linear 0.15s;
+			text-decoration:none;
+		}
+		
+		.menu li:hover > a, .menu .current-item > a {
+			text-decoration:none;
+		}
+		
+		.menu >ul {
+			display:table;
+			padding:0;
+			margin:0;
+			text-align:center
+		}
+		
+		.menu > ul > li > {
+			position:relative;
+			display:table-cell;
+			margin:0px;
+			padding:0;
+			width:10%;
+			border-bottom:solid #a65300;
+			text-align:center;
+			height:40px;
+			vertical-align:bottom;
+		}
+		
+		.menu > ul > li:hover, .menu > ul > .current-item > a {
+			background: #a67c52;
+		}
+		
+		.menu li:hover .submenu {
+			z-index:1;
+			opacity:1;
+		}
+		
+		.submenu {
+			width:100%;
+			padding:0px;
+			position:absolute;
+			top:100%;
+			left:0px;
+			z-index:-1;
+			opacity:0;
+			transition:opacity linear 0.15s;
+			background:#a67c52
+			text-align:center;
+			border-top:solid #a65300 thick;
+		}
+		
+		.submenu li {
+			display:table;
+			text-align:center;
+			width:80%;
+			border-top:solid #9f711a thin;
+			margin:auto;
+		}
+		
+		.submenu a {
+			display:table-cell;
+			height:40px;
+			vertical:align:middle;
+			width:100%;
+			text:align:center;
+		}
+		
+	</style>
