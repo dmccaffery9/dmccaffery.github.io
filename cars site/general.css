@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background-color:purple;
+}
+
+#title {
+	color:black;
+	background-color:orange;
+	text-align:center;
+}
+
+#footer {
+	color:black;
+	background-color:orange;
+	text-align:center;
+}
+
+#content {
+	color:black;
+
+	background-size:cover;
+}
+
+.content {
+	background-color:orange;
+	width:auto;
+	text-align:center;
+}
+
+#navigation {
+	background-color:orange;
+	text-align:center;
+	color:black;
+}
